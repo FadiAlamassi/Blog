@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+        <title>Bootstrap</title>
+         
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">     
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+<!--       Navbar-->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+               <div class="navbar-header">
+                  <a href="#" class="navbar-brand">Fadi Website</a>
+                   <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"> </span>
+                   </button>
+               </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        
+                        <li class="active"><a href="#"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+                        <li ><a href="#">Articles</a></li>
+                        <li class="dropdown"><a  href="#" class="dropdown-toggle" data-toggle="dropdown">Programming Language<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Java</a></li>
+                            <li><a href="#">ASP.NET</a></li>
+                            <li><a href="#">WEB</a></li>
+                            <li><a href="#">C#</a></li>
+                        </ul>
+                        </li>
+                        <li ><a href="#">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><i class="glyphicon glyphicon-user"></i> Sign Up</a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-lock"></i> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+<!--        Jumbotron     -->
+   <div class="jumbotron">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-8">
+                   <h1 id="bb">Fadi Blog</h1>
+                   <p>
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quo sed commodi, impedit dolore est ab fugiat hic unde asperiores aspernatur nesciunt delectus dolorum sunt labore, voluptate repellendus illo quasi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae explicabo corrupti error soluta neque sunt, doloribus vel tenetur id! Ipsum commodi, ab asperiores quis quia tempora sit nobis voluptatem culpa.
+                   </p>
+                   <a href="#" class="btn btn-info">Continue</a>
+               </div>
+               <div class="col-md-4">
+              
+                   <img src="images/bbb.jpg" class="img-responsive thumbnail image">
+               </div>
+           </div>
+       </div>
+   </div>
+   
+<!--   Articles-->
+   <div class="container">
+      <div class="row">
+          <div class="col-md-8">
+          <h1 class="page-header">OUR ARTICLES</h1>
+          
+<!--          first article-->
+        
+           <h2><a href="#">Introduction to Web</a></h2>
+           <p>
+               Written by <span class="glyphicon glyphicon-user"></span> <a href="#">Fadi Alamassi</a> at : <span class="glyphicon glyphicon-time"></span>7/8/2017 - 08:13
+           </p>
+           <hr>
+           <img src="images/aaa.png" class="img-responsive thumbnail" alt="">
+           <hr>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero qui voluptatibus dicta, nostrum iusto possimus quam aperiam voluptate placeat ea error! Cum aut alias, architecto autem inventore laudantium dignissimos repellendus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, vel neque exercitationem ducimus, nulla provident sed expedita necessitatibus magnam molestias voluptatibus odio hic dolorem quae perspiciatis non, laborum obcaecati accusamus!</p>
+            <a href="#" class="btn btn-primary">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+            <hr>
+            
+            <!--          Second article-->
+        
+           <h2><a href="#"> Web development</a></h2>
+           <p>
+               Written by <span class="glyphicon glyphicon-user"></span> <a href="#">Fadi Alamassi</a> at : <span class="glyphicon glyphicon-time"></span>7/8/2017 - 08:13
+           </p>
+           <hr>
+           <img src="images/bbb.jpg" class="img-responsive thumbnail" alt="">
+           <hr>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero qui voluptatibus dicta, nostrum iusto possimus quam aperiam voluptate placeat ea error! Cum aut alias, architecto autem inventore laudantium dignissimos repellendus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, vel neque exercitationem ducimus, nulla provident sed expedita necessitatibus magnam molestias voluptatibus odio hic dolorem quae perspiciatis non, laborum obcaecati accusamus!</p>
+            <a href="#" class="btn btn-primary">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+            <hr>
+            
+            <!--          Third article-->
+        
+           <h2><a href="#">Web Programming</a></h2>
+           <p>
+               Written by <span class="glyphicon glyphicon-user"></span> <a href="#">Fadi Alamassi</a> at : <span class="glyphicon glyphicon-time"></span>7/8/2017 - 08:13
+           </p>
+           <hr>
+           <img src="images/4.jpg" class="img-responsive thumbnail" alt="">
+           <hr>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero qui voluptatibus dicta, nostrum iusto possimus quam aperiam voluptate placeat ea error! Cum aut alias, architecto autem inventore laudantium dignissimos repellendus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, vel neque exercitationem ducimus, nulla provident sed expedita necessitatibus magnam molestias voluptatibus odio hic dolorem quae perspiciatis non, laborum obcaecati accusamus!</p>
+            <a href="#" class="btn btn-primary">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+            <hr>
+            
+            <ul class="pager">
+                <li class="previous"><a href="#">&larr; Older</a></li>
+                <li class="next"><a href="#"> Newer &rarr;</a></li>
+            </ul>
+          </div>
+          
+<!--          Sidebar-->
+          <div class="col-md-4">
+<!--              Search-->
+             <div class="well">
+                  <h4> Search here </h4>
+                   <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-primary  "><span class="glyphicon glyphicon-search"></span></button>
+                        </span>
+                    </div> 
+             </div>
+             
+<!--             Categories-->
+                 <div class="well">
+                    <h4>Categories</h4>
+                    <div class="row">
+
+                        <div class="col-xs-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#">C</a></li>
+                                <li><a href="#">C++</a></li>
+                                <li><a href="#">Java</a></li>
+                                <li><a href="#">Android</a></li>
+                                <li><a href="#">IOS</a></li>
+                                <li><a href="#">Web</a></li>
+                            </ul>
+                         </div>
+                         <div class="col-xs-6">
+                              <ul class="list-unstyled">
+                                <li><a href="#">C</a></li>
+                                <li><a href="#">C++</a></li>
+                                <li><a href="#">Java</a></li>
+                                <li><a href="#">Android</a></li>
+                                <li><a href="#">IOS</a></li>
+                                <li><a href="#">Web</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                 </div>
+                 
+<!--                 Popular Posts-->
+                   <div class="well">
+                       <h4>Popular Posts</h4>
+                       <ul class="list-unstyled">
+                           <li><a href="#">Learing Pla..Pla..Pla</a></li>
+                           <li><a href="#">Learing Pla..Pla..Pla</a></li>
+                           <li><a href="#">Learing Pla..Pla..Pla</a></li>
+                           <li><a href="#">Learing Pla..Pla..Pla</a></li>
+                           <li><a href="#">Learing Pla..Pla..Pla</a></li>
+                           <li><a href="#">Learing Pla..Pla..Pla</a></li>
+                           <li><a href="#">Learing Pla..Pla..Pla</a></li>
+                       </ul>
+                   </div>
+                
+         
+          </div>
+      </div>
+        <hr>
+        <footer>
+            <div class="row">
+               <div class="col-md-12">
+                   <p>Copyright &copy; Fadi 2017 TradeMark &reg;</p>
+               </div>
+                
+            </div>
+        </footer>
+   </div>
+    </body>
+</html>
